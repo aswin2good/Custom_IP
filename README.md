@@ -7,7 +7,7 @@ For connecting with me for future projects, you can connect with [me](https://ww
 
 
 ---
-This project has only one motive. It is to experiment with Custom IP Generation, and thereby try to create a serial connection between the computer and the MicroBlaze Processor using UART communication. This project is a primary resource for me to practice, with the open source toolchain and definitely to keep a documentation that is easily understandable by anyone who later tries to practice it the same way. I will keep on updating this repository whenever it is required.
+This project has only one motive. It is to experiment with Custom IP Generation, and thereby try to design an IP for controlling any design switches. I will try to design registers into an IP and will connect them to the pins (external interface) of the IP. This will be subsequently connected to the LEDs on the pole, so that if we want to LED, we just need to write it to the register. Here, we are going to use two registers- one for controlling LEDs and the other for the Switches. This project is a primary resource for me to practice, with the open source toolchain and definitely to keep a documentation that is easily understandable by anyone who later tries to practice it the same way. I will keep on updating this repository whenever it is required.
 
 Let's Start
 
