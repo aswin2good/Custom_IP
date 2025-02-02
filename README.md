@@ -41,3 +41,5 @@ $ sudo apt install libncurses5
 $ sudo ln -s /lib/x86_64-linux-gnu/libtinfo.so.6 /lib/x86_64-linux-gnu/libtinfo.so.5
 $ sudo apt-get install putty
 ```
+## 3. Xilinx Unified Software Setup
+### I have used 2023.2 version of the Xilinx Unified Software.
