@@ -51,3 +51,4 @@ $ sudo apt-get install putty
 - Now, open the Ubuntu Terminal and type the following commands to open Linux Self Extracting Web Installer by Xilinx.
 ```
 $ cd $HOME/Downloads
+$ chmod u+x FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
