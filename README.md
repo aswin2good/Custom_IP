@@ -59,3 +59,4 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
  - Select Vitis among the different options.
  - Click on next.
  - Choose the installation directory where you want to store the files. I would suggest to store in '/tools/Xilinx'.
+ - Install.
