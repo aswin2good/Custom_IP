@@ -54,3 +54,5 @@ $ cd $HOME/Downloads
 $ chmod u+x FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
 $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
 ```
+- ### Note that you need to replace the file name according to your version in order to open the installer.
+ 
