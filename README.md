@@ -61,6 +61,7 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
  - Choose the installation directory where you want to store the files. I would suggest to store in '/tools/Xilinx'.
  - Install.
  - Once installation is complete, we must ensure all our necessary softwares are properly loading. To check, proceed with the following commands on the Ubuntu Terminal:
+ - ### Vivado-
    ```
    $ /tools/Xilinx/Vivado/2023.2/bin/vivado
    ```
