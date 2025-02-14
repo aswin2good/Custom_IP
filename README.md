@@ -54,14 +54,4 @@ $ cd $HOME/Downloads
 $ chmod u+x FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
 $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
 ```
-- ### Note that you need to replace the file name according to your version in order to open the installer.
- - Login with your credentials.
- - Select Vitis among the different options.
- - Click on next.
- - Choose the installation directory where you want to store the files. I would suggest to store in '/tools/Xilinx'.
- - Install.
- - Once installation is complete, we must ensure all our necessary softwares are properly loading. To check, proceed with the following commands on the Ubuntu Terminal:
- - ### Vivado-
-   ```
-   $ /tools/Xilinx/Vivado/2023.2/bin/vivado
-   ```
+
