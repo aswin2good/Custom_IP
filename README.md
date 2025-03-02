@@ -101,3 +101,6 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
      - #### NOTE: If you could not find, you can also select xc7a35tcpg236-1 part under the Parts section. But I would strongly suggest to download Basys3 Definition Board File (___refer to Section 3 of this readme file___)
    - Click on next until we reach the project dashboard.
      ![](./Images/Vivado_project_interface.png)
+   - Under the Tools tab, click on Create and Package new IP
+     - Under the pop up window, select Create AXI 4 Interface
+       ![](./Images/Create_AXI_4_Interface.png) 
