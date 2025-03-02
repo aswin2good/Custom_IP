@@ -88,7 +88,7 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
    ```
    $ /tools/Xilinx/Vivado/2023.2/bin/vivado
    ```
-   ### 6.1 (Vivado)
+   ### 5.1 (Vivado)
    - In the Quick Start Tab, click on Create Project.
      ![](./Images/vivado_start.png)
    - Give a project name of your choice and specify a directory
