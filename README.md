@@ -104,3 +104,10 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
    - Under the Tools tab, click on Create and Package new IP
      - Under the pop up window, select Create AXI 4 Interface
        ![](./Images/Create_AXI_4_interface.png) 
+     - Under the Peripheral details, add Name of the IP you need to generate, in my case "gpio_control"
+       ![](./Images/filling_name_of_ip_repo.png)
+     - Under Add Interfaces (IP Configuration) window, you will see various options:
+       - Here, our IP is acting as a Slave, so select Slave.
+       - As we are creating a simple IP, select interface type as Lite.(this is more than enough for medium level programs, where high performance is not required)
+         ![](./Images/ip_configure.png)
+       
