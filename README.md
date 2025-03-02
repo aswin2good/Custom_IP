@@ -103,4 +103,4 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
      ![](./Images/Vivado_project_interface.png)
    - Under the Tools tab, click on Create and Package new IP
      - Under the pop up window, select Create AXI 4 Interface
-       ![](./Images/Create_AXI_4_Interface.png) 
+       ![](./Images/Create_AXI_4_interface.png) 
