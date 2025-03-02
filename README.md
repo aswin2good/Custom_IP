@@ -84,7 +84,7 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
 - A pre-designed functional block of logic (like a processor core, memory controller, or arithmetic unit etc) that can be readily added to a design from a library, allowing designers to quickly incorporate complex functionalities without having to build them from scratch.
 - It can be customized and integrated into a larger system using the IP Integrator tool.
   ### IP Integrator:
-   -This tool within Vivado allows you to visually connect different IP cores on a design canvas, creating complex system designs by interfacing them together. 
+   - This tool within Vivado allows you to visually connect different IP cores on a design canvas, creating complex system designs by interfacing them together. 
 
 ## 5. Project Procedure
 - Open Vivado using the following command in the Ubuntu Terminal:
