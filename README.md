@@ -79,4 +79,22 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
  - Extract the zip file
  - go to /vivado-boards-master/new/board_files and copy basys3 folder
  - paste the folder to /tools/Xilinx/Vivado/2023.2/data/boards/board_files directory (create a boards_files folder if missing and then paste it)
-     
+
+## 4. What is an IP?
+
+
+## 5. Project Procedure
+- Open Vivado using the following command in the Ubuntu Terminal:
+   ```
+   $ /tools/Xilinx/Vivado/2023.2/bin/vivado
+   ```
+   ### 6.1 (Vivado)
+   - In the Quick Start Tab, click on Create Project.
+     ![](./Images/vivado_start.png)
+   - Give a project name of your choice and specify a directory
+     ![](./Images/RTL_Project_Selection.png)
+   - Under default part section click on Boards and search for Basys3.
+     ![](./Images/Basys3_Board_Selection.png)
+     - #### NOTE: If you could not find, you can also select xc7a35tcpg236-1 part under the Parts section. But I would strongly suggest to download Basys3 Definition Board File (___refer to Section 3 of this readme file___)
+   - Click on next until we reach the project dashboard.
+     ![](./Images/Vivado_project_interface.png)
