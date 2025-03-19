@@ -1,4 +1,4 @@
-# Custom_IP
+# Custom IP
 ## Generating a Custom IP Core using Xilinx Vivado
 ---
 
