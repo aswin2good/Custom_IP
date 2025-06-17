@@ -156,6 +156,7 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
 
 ---
 
+![](./Images/ip_final_image.png)
 ### Vitis IDE
 - Xil_Out32(GPIO_BASEADDR + 0x00, 0xAA); // Write LED pattern
 - int switch_val = Xil_In32(GPIO_BASEADDR + 0x04); // Read switch status
