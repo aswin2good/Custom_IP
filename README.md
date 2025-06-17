@@ -190,29 +190,3 @@ $ sudo ./FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256_Lin64.bin
 
 
 
-
-## 5. Project Procedure
-- Open Vivado using the following command in the Ubuntu Terminal:
-   ```
-   $ /tools/Xilinx/Vivado/2023.2/bin/vivado
-   ```
-   ### 5.1 (Vivado)
-   - In the Quick Start Tab, click on Create Project.
-     ![](./Images/vivado_start.png)
-   - Give a project name of your choice and specify a directory
-     ![](./Images/RTL_Project_Selection.png)
-   - Under default part section click on Boards and search for Basys3.
-     ![](./Images/Basys3_Board_Selection.png)
-     - #### NOTE: If you could not find, you can also select xc7a35tcpg236-1 part under the Parts section. But I would strongly suggest to download Basys3 Definition Board File (___refer to Section 3 of this readme file___)
-   - Click on next until we reach the project dashboard.
-     ![](./Images/Vivado_project_interface.png)
-   - Under the Tools tab, click on Create and Package new IP
-     - Under the pop up window, select Create AXI 4 Interface
-       ![](./Images/Create_AXI_4_interface.png) 
-     - Under the Peripheral details, add Name of the IP you need to generate, in my case "gpio_control"
-       ![](./Images/filling_name_of_ip_repo.png)
-     - Under Add Interfaces (IP Configuration) window, you will see various options:
-       - Here, our IP is acting as a Slave, so select Slave.
-       - As we are creating a simple IP, select interface type as Lite.(this is more than enough for medium level programs, where high performance is not required)
-         ![](./Images/ip_configure.png)
-       
