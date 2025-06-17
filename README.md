@@ -1,3 +1,107 @@
+# Custom GPIO IP Core Design in Vivado
+
+## Overview
+This repository documents the process of designing a custom GPIO IP core in Xilinx Vivado for controlling switches and LEDs using the AXI interface. The IP core is customizable and can be integrated into a block design on various FPGA platforms.
+
+The IP manages registers, defines AXI interfaces, and allows parameter customization for hardware-level integration.
+
+---
+
+## Highlights and Summary
+
+### Design Planning
+- Create a custom IP to control switches and LEDs.
+- Decide on the AXI-Lite slave interface.
+- Define register configurations for hardware peripherals.
+- Controller handles LED output and switch input.
+
+### Folder and File Structure
+- Create a structured folder for HDL source, metadata, and drivers.
+- Key files include:
+  - `component.xml`: Stores IP metadata.
+  - HDL source files: Verilog/VHDL code.
+  - Driver files: Test and integration code.
+- Use standard naming conventions and interface types.
+
+### IP Metadata and FPGA Compatibility
+- Metadata includes vendor, version, library, and target FPGA info.
+- Vivado performs compatibility checks.
+- AXI interfaces are automatically generated for processor-IP communication.
+
+### Register Management and AXI Read/Write
+- Registers use 4-byte address increments.
+- Writing to register 0 controls LEDs.
+- Reading from register 1 retrieves switch status.
+- Base code is customized for LED and switch interaction.
+
+### Source Code Customization and Clean Architecture
+- Group registers logically.
+- Register 0: LED control (write-only).
+- Register 1: Switch status (read-only by processor).
+- Update `component.xml` after code changes.
+
+### IP Project Management and Reusability
+- Keep project editable during closure.
+- Use a dedicated IP repository folder.
+- Configure Vivado to recognize user IPs.
+
+### Integration with Block Design and Constraints
+- Connect LEDs and switches in block design.
+- Synthesize the design.
+- Assign pin constraints in `.xdc` file.
+- Customize configurations for different boards.
+
+### Parameter Mapping and GUI-Driven Design
+- Define LED and switch width parameters.
+- Refresh and upgrade IP in block design.
+- Regenerate output products.
+- Use Vivado GUI for parameter and connection management.
+
+---
+
+## Features of the GPIO Custom IP
+- AXI4-Lite Slave Interface
+- Two internal registers:
+  - Register 0: LED data
+  - Register 1: Switch status
+- Modular Verilog design
+- Parameterizable LED and switch widths
+- Integratable into Vivado block design
+
+---
+
+### Vitis IDE
+- Xil_Out32(GPIO_BASEADDR + 0x00, 0xAA); // Write LED pattern
+- int switch_val = Xil_In32(GPIO_BASEADDR + 0x04); // Read switch status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Custom IP
 ## Generating a Custom IP Core using Xilinx Vivado
 ---
