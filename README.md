@@ -27,8 +27,6 @@ Let's Start
 - [1. Ubuntu Setup](#1-Ubuntu-Setup)
 - [2. Necessary Libraries Installation](#2-Necessary-Libraries-Installation)
 - [3. Xilinx Unified Software Setup](#3-Xilinx-Unified-Software-Setup)
-- [4. Visual Studio Code Setup](#4-Visual-Studio-Code-Setup)
-  - [4.1. Install Serial Monitor](#41-Install-Serial-Monitor)
  
 ## 1. Ubuntu Setup
 ### I would strongly suggest to Dual Boot your system rather than only keeping Ubuntu 24.04.1 LTS on your system.
